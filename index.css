@@ -39,12 +39,13 @@ body {
 .border {
     background-color: rgb(186, 255, 186);
     width: 90%;
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .border-ul {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
@@ -61,3 +62,7 @@ body {
 }
 
 /* CONTAINER 2 ROUNDED BORDER */
+
+.row {
+    margin-bottom: 15px;
+}
