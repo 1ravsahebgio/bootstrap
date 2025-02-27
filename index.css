@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(255, 227, 231);
+}
+
+#border-a {
+    border: 1.5px solid rgb(255, 0, 85);
+}
+
+/* CONTAINER 1  BORDER */
+.bt {
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    font-size: 40px;
+}
+
+.container-child {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-r {
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
+    background-color: rgb(255, 197, 138);
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.border {
+    background-color: rgb(186, 255, 186);
+    width: 90%;
+
+}
+
+.border-ul {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.border-ul button {
+    height: 50px;
+    width: 160px;
+    background-color: rgb(242, 255, 0);
+    border: rgb(4, 4, 98) solid 2px;
+}
+
+.container-r li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* CONTAINER 2 ROUNDED BORDER */
